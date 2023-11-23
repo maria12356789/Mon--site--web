@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pratique d'ecriture numérique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bitter:wght@300&family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+                  body {
+                    background-color: antiquewhite;
+                  }
+                  h1 {
+                    font-family: "Bitter", serif;
+                    font-size: 50px;
+                    font-weight: 900;
+                    color: #c11515;
+                    font-size: 50px;
+                    text-align: center;
+                    text-decoration: underline;
+                    padding: 100px 8px 8px 50px;
+                    border: 1px solid #825521;
+
+
+
+                  }
+                  .paragraph1 {
+                    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+                    color: rgba(0, 60, 255, 0.675);
+                    font-size: "80px;
+
+                  }
+                  .paragraph2 {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: black;
+                    font-size:"
+                      80px;
+                  }
+                  li {
+                    color: chocolate;
+                    font-size: 30px;
+                  }
+                  button {
+                    display: block;
+                    margin: 20px auto;
+                    padding: 15px 20px;
+                    color: rgb(21, 13, 2);
+                    background: transparent;
+                    font-family: "Times New Roman", Times, serif;
+                    border-color: aquamarine;
+                    font-size: 30px;
+                    cursor: pointer;
+                    border-style: solid;
+                    text-shadow:box-shadow: 82px 21px 46px 18px rgba(3,20,26,0.78);
+      -webkit-box-shadow: 82px 21px 46px 18px rgba(3,20,26,0.78);
+      -moz-box-shadow: 82px 21px 46px 18px rgba(3,20,26,0.78);
+
+                  }
+                  button:hover {
+                    background-color: #776b5d;
+                    border-radius: 20px 20px 20px 20px;
+                  }
+                  img {
+                    display: block;
+                    margin: 0 auto;
+                    border: 5px black solid;
+                    width: 640px;
+                    box-shadow: 10px 5px 5px red;
+                  }
+    </style>
+  </head>
+  <body>
+    <h1>
+      La Puissance des Médias Sociaux dans la Diffusion des Idées : Analysez
+      comment les médias sociaux ont transformé la manière dont les idées sont
+      partagées et discutées en ligne. 
+    </h1>
+    <p class="paragraph1">
+      Les médias sociaux ont révolutionné la diffusion et la discussion des
+      idées. C’est ce que démontre Valérie March dans Comment développer votre
+      activité grâce aux médias sociaux<< Les médias sociaux ont envahi notre
+      quotidien.[ ...] Plus de 16 millions de professionnels sont inscrits sur
+      LinkedIn en France. >>1Auparavant, l'accès à l'information et la capacité
+      d'influencer étaient limités à quelques-uns. Aujourd'hui, ces plateformes
+      ont démocratisé l'expression, permettant à tous de partager leurs pensées.
+      L'aspect interactif des médias sociaux a changé la façon dont nous
+      discutons des idées et << C’est surtout au moment de sa démocratisation,
+      au tournant du siècle, que l’internet a permis à un nouvel espace
+      d’expression et de visibilité d’émerger,[ …] circuits médiatiques
+      traditionnels.>>2.Les hashtags et les tendances ont créé des forums
+      mondiaux pour des discussions ciblées. Cela a permis de rassembler des
+      personnes de différents horizons pour débattre de sujets spécifiques sur
+      une multitude de plateformes. Cependant, cette liberté a également créé de
+      nombreux défis. Les fausses nouvelles et la désinformation ont désormais
+      la possibilité se propager rapidement, ce qui peut avoir des conséquences
+      graves. Il est donc crucial d'éduquer les utilisateurs sur la vérification
+      des informations avant de pouvoir les partager. Enfin, les médias sociaux
+      ont changé notre interaction avec les idées. Les réactions instantanées et
+      la possibilité de partager des idées en temps réel ont créé une nouvelle
+      dynamique. Cela a rendu les discussions plus directes et personnelles,
+      transformant ainsi la façon dont nous partageons et discutons des idées en
+      ligne.
+    </p>
+    <p class="paragraph2">
+      En conclusion les médias sociaux ont révolutionné le partage d’idées
+      rendant la communication plus rapide et mondiale. En somme ils ont
+      révolutionné la façon dont nous discutons et partageons nos idées
+      favorisant un échange d’idées plus diversifié et interactif.
+    </p>
+    <button>mon bouton</button>
+
+    <img
+      src="https://lestudio1.files.wordpress.com/2015/06/d0707-socialmedia.jpg"
+      alt="un écran de téléphone"
+      width="800"
+    />
+    <hr />
+    <h2>Références</h2>
+    <li>
+      <a
+        href="https://www.cairn.info/comment-developper-votre-activite-grace-aux-medias--9782100784677.htm"
+        >Ma source 1</a
+      >
+      March , V .(2019)Comment développer votre activité grâce aux médias
+      sociaux .Dunod.
+    </li>
+    <li>
+      <a>Ma source 2 </a> "Delias, Mélanie Lallet « La remédiation des savoirs
+      en santé dans les communautés en ligne sur les transidentités », Revue
+      française des sciences de l’information et de la communication, 2018"
+    </li>
+
+    <script>
+      function infoBouton() {
+        let prenom = prompt("quel est ton nom ?");
+        let nom = prompt("quel est ton nom ?");
+
+        alert("Merci " + prenom + " nous te contacterons bientot");
+      }
+
+      let monbouton = document.querySelector("button");
+      monbouton.addEventListener("click", infoBouton);
+    </script>
+  </body>
+</html>
